@@ -1,0 +1,42 @@
+[
+
+    {
+        "id": 1,
+        "titulo": "Fusion de Fibra",
+        "categoria": "Redes",
+        "descripcion": "Funcion de fibra optica",
+        "imagen":"https://www.cablematic.com/imagenes/maquina-fusion-fibra-optica.com",
+        "tecnologia": "Fusion de fibra, Rede de comunicaciones, Transmision de Datos, Fujikura 3105"
+        
+    },
+        {
+        "id": 2,
+        "titulo": "Configuracion de redes de configuracion",
+        "categoria": "Redes de comunicaciones",
+        "descripcion": "Eleccion de IPS mediante las redes de configuracion",
+        "imagen":"https://i.ytimg.com/vi/V4-ol6SRLzk/maxresdefault.jpg",
+        "tecnologia": ["Routers", "Redes", "Cisco"] 
+    },
+
+
+    {
+        "id": 3,
+        "titulo": "Desarrollo de aplicaciones Webb mi servicios",
+        "categoria": "Desarrollo de SOftware",
+        "descripcion": "El desarrollo de aplicaciones web basadas e microservicios implica la creacion de aplicacionesMicroservicios",
+        "imagen":"https://i.ytimg.com/vi/V4-ol6SRLzk/maxresdefault.jpg",
+        "tecnologia": ["Microservicios", "NestJS", "Redes Nats"] 
+
+
+    },
+    {
+        "id": 4,
+        "titulo": "Despliegue de aplicaciones en la nube ",
+        "categoria": "Despliegue de Aplicaciones en la Nube",
+        "descripcion": "El despliegue de aplicaciones en la nube",
+        "imagen":"https://i.ytimg.com/vi/V4-ol6SRLzk/maxresdefault.jpg",
+        "tecnologia": ["DevOps", "Kubernetes", "Jenkins"] 
+
+
+    }
+]
