@@ -1,86 +1,17 @@
 // array de JS
-const formacion = [
-  {
-    id: 1,
-    title: 'Ciclo grado superior en ASIR',
-    href: '#',
-    description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
-    author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
-  },
-  {
-    id: 2,
-    title: 'Bachillerato cientifico tecnologico',
-    href: '#',
-    description: 'Optio cum necessitatibus dolor voluptatum provident commodi et. Qui aperiam fugiat nemo cumque.',
-    date: 'Mar 10, 2020',
-    datetime: '2020-03-10',
-    category: { title: 'Sales', href: '#' },
-    author: {
-      name: 'Lindsay Walton',
-      role: 'Front-end Developer',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
-  },
-  {
-    id: 3,
-    title: 'Curso basico de React',
-    href: '#',
-    description:
-      'Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis. Nostrud sint anim sunt aliqua. Nulla eu labore irure incididunt velit cillum quis magna dolore.',
-    date: 'Feb 12, 2020',
-    datetime: '2020-02-12',
-    category: { title: 'Business', href: '#' },
-    author: {
-      name: 'Tom Cook',
-      role: 'Director of Product',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
-  },
-    {
-    id: 3,
-    title: 'Curso basico de MySQl',
-    href: '#',
-    description:
-      'Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis. Nostrud sint anim sunt aliqua. Nulla eu labore irure incididunt velit cillum quis magna dolore.',
-    date: 'Feb 12, 2020',
-    datetime: '2020-02-12',
-    category: { title: 'Business', href: '#' },
-    author: {
-      name: 'Tom Cook',
-      role: 'Director of Product',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
-  },
-]
+import formacion from '../../Data/Formacion.json';
 export default function Formacion() {
   return (
     <section id="formacion" className="min-h-screen flex items-center justify-center">
     <div className="bg-gray-900 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">Titulaciones academicas</h2>
-          <p className="mt-2 text-lg/8 text-gray-300">Titulos de Formacion Profesional</p>
+          <h2 className="text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">Experiencia laboral</h2>
         </div>
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-700 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-10  grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-700 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {formacion.map((titulo) => (
             <article key={titulo.id} 
-            className="flex max-w-xl flex-col items-start justify-between runded-md border-2 boreder-indigo-588/100">
+            className="flex w-300 flex-col items-start justify-center runded-md border-2 boreder-indigo-588/100">
               <div className="flex items-center gap-x-4 text-xs"> {// Parte modificada por el profesor
               }
                 <time dateTime={titulo.datetime} className="text-gray-400">
@@ -103,15 +34,9 @@ export default function Formacion() {
                 <p className="mt-5 line-clamp-3 text-sm/6 text-gray-400">{titulo.description}</p>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4 justify-self-end">
-                <img alt="" src={titulo.author.imageUrl} className="size-10 rounded-full bg-gray-800" />
-                <div className="text-sm/6">
-                  <p className="font-semibold text-white">
-                    <a href={titulo.author.href}>
+                <img alt="" src={titulo.author.imageUrl} className="w-400 h-150  bg-gray-800" />
+                <div className="text-sm/6"> 
                       <span className="absolute inset-0" />
-                      {titulo.author.name}
-                    </a>
-                  </p>
-                  <p className="text-gray-400">{titulo.author.role}</p>
                 </div>
               </div>
             </article>

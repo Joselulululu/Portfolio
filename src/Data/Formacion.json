@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "ASTEA AUTISMO",
+    "href": "#",
+    "description": "Mi trayectoria profesional dio sus primeros pasos en Astea Autismo, un lugar que me recibió en un entorno inmejorable: acogedor, cercano y con una filosofía de trabajo directa y humana. Durante estos tres meses de prácticas, tuve la oportunidad de colaborar en un equipo multidisciplinar, enfrentándome a retos que unieron la tecnología con la creatividad. Aunque mi formación principal es técnica, en Astea desempeñé un rol polivalente donde destaqué especialmente en: Diseño Gráfico: Fue el eje central de mi estancia. Me encargué de la creación de materiales visuales, logrando comunicar la identidad de la organización de forma clara y atractiva. Gestión de Sistemas: Apliqué mis conocimientos en sistemas operativos, asegurando el correcto funcionamiento del software y las herramientas necesarias para el día a día de la entidad. Creatividad y Producción Manual: Participé en procesos de elaboración de materiales específicos y productos personalizados (como posavasos y otros elementos), lo que me permitió desarrollar una atención al detalle muy minuciosa. Esta etapa no solo reforzó mis habilidades técnicas en ASIR y diseño, sino que me enseñó la importancia de adaptar la tecnología y el arte para generar un impacto positivo en la comunidad.",
+    "date": "Mar 26, 2025",
+    "datetime": "2025-03-26",
+    "category": {
+      "title": "ASTEA",
+      "href": "https://asteautismo.org"
+    },
+    "author": {
+      "imageUrl": "https://blog.dipalme.org/wp-content/uploads/2023/03/ASTEA-Dia-Mundial-del-Autismo.jpg"
+    }
+  }
+]
