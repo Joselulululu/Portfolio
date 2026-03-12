@@ -1,42 +1,50 @@
 [
-
-    {
-        "id": 1,
-        "titulo": "Fusion de Fibra",
-        "categoria": "Redes",
-        "descripcion": "Funcion de fibra optica",
-        "imagen":"https://www.cablematic.com/imagenes/maquina-fusion-fibra-optica.com",
-        "tecnologia": "Fusion de fibra, Rede de comunicaciones, Transmision de Datos, Fujikura 3105"
-        
+  {
+    "id": 1,
+    "title": "Proyecto Web: Microservicios y Cloud",
+    "datetime": "2024-03-20",
+    "date": "20 de Marzo, 2024",
+    "category": {
+      "title": "Desarrollo de pagina web ",
+      "href": "https://joselulululu.github.io/ProyectoWeb/ProyectoWeb-main%20(1)/ProyectoWeb-main/Proyecto.webpru.html"
     },
-        {
-        "id": 2,
-        "titulo": "Configuracion de redes de configuracion",
-        "categoria": "Redes de comunicaciones",
-        "descripcion": "Eleccion de IPS mediante las redes de configuracion",
-        "imagen":"https://i.ytimg.com/vi/V4-ol6SRLzk/maxresdefault.jpg",
-        "tecnologia": ["Routers", "Redes", "Cisco"] 
+    "description": "Desarrollo principal de pagina web proyecto ",
+    "href": "#",
+    "author": {
+      "imageUrl": "https://cdn.prod.website-files.com/5d4955a615f2c1cba8fdc3f9/623dda7e41299b3cacaacc16_HTML_Blog-scaled.jpeg"
     },
-
-
-    {
-        "id": 3,
-        "titulo": "Desarrollo de aplicaciones Webb mi servicios",
-        "categoria": "Desarrollo de SOftware",
-        "descripcion": "El desarrollo de aplicaciones web basadas e microservicios implica la creacion de aplicacionesMicroservicios",
-        "imagen":"https://i.ytimg.com/vi/V4-ol6SRLzk/maxresdefault.jpg",
-        "tecnologia": ["Microservicios", "NestJS", "Redes Nats"] 
-
-
+    "tecnologia": ["HTML", "CSS"]
+  },
+  {
+    "id": 2,
+    "title": "Actividades Nivel Medio: Infraestructura y Redes",
+    "datetime": "2024-02-15",
+    "date": "15 de Febrero, 2024",
+    "category": {
+      "title": "actividades html",
+      "href": "https://joselulululu.github.io/actividadesnivelmedio/nivel%20medio%20htmlcss/indice.html"
     },
-    {
-        "id": 4,
-        "titulo": "Despliegue de aplicaciones en la nube ",
-        "categoria": "Despliegue de Aplicaciones en la Nube",
-        "descripcion": "El despliegue de aplicaciones en la nube",
-        "imagen":"https://i.ytimg.com/vi/V4-ol6SRLzk/maxresdefault.jpg",
-        "tecnologia": ["DevOps", "Kubernetes", "Jenkins"] 
-
-
-    }
+    "description": "Configuración avanzada de redes de datos e infraestructura física. Incluye la gestión de direccionamiento IP, configuración de routers Cisco y trabajos de precisión con fusión de fibra óptica.",
+    "href": "#",
+    "author": {
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Ah0h3cJnD-ZjhtSJR5VdPCo_SBDC5WVzMQ&s"
+    },
+    "tecnologia": ["HTML", "CSS"]
+  },
+  {
+    "id": 3,
+    "title": "portfolio de prueba basico",
+    "datetime": "2024-01-10",
+    "date": "10 de Enero, 2024",
+    "category": {
+      "title": "HTML/CSS",
+      "href": "https://joselulululu.github.io/LMSGI-Asir-1-/portfolio/portfolio/css/index.html"
+    },
+    "description": "Pagina web de portfolio hecha, con conocimiento muy muy basicos ",
+    "href": "#",
+    "author": {
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlwgltK_Mm_79ESU4SNe39aniGcZ5xiuoNLQ&s"
+    },
+    "tecnologia": ["HTML5", "CSS3"]
+  }
 ]

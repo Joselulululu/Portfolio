@@ -1,6 +1,6 @@
 export default function Qsomos() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
+    <section id="qsomos" className="min-h-screen flex items-center justify-center bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-[1400px] w-full">
         {/* Usamos GRID: 1 columna en móvil, 2 columnas en pantallas grandes */}
         <div className="relative isolate overflow-hidden bg-gray-800 rounded-3xl shadow-2xl grid grid-cols-1 lg:grid-cols-2 items-center">

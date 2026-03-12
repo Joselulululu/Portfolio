@@ -3,6 +3,7 @@ import Header1 from "../components/main/Header1";
 import Qsomos from "../components/section/Qsomos";
 import Formacion from "../components/section/Formacion";
 import Servicios from "../components/section/Servicios";
+import Contacto from "../components/section/Contacto";
 
 export const MainLayout = () => {
     return(
@@ -12,6 +13,7 @@ export const MainLayout = () => {
                 <Qsomos />
                 <Formacion />
                 <Servicios />
+                <Contacto />
             </main>
             <Footer />
         </div>
